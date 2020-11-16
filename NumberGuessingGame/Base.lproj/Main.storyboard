@@ -117,7 +117,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="computerLog" destination="CTL-hk-5G5" id="1ej-0n-do0"/>
-                        <outlet property="geussTextFiele" destination="PEY-HX-hhG" id="AJT-vw-cen"/>
+                        <outlet property="guessTextField" destination="PEY-HX-hhG" id="KdE-D9-ojR"/>
                         <outlet property="inputA" destination="h9E-Je-OE2" id="oGm-Ex-vNr"/>
                         <outlet property="inputB" destination="iwV-a2-0Le" id="shh-Ps-cEq"/>
                         <outlet property="playerLog" destination="xDa-Ec-7ed" id="Gk4-eV-H49"/>

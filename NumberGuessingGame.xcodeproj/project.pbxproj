@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		092A38D225624A4F0065ABB8 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A38D125624A4F0065ABB8 /* Basic.swift */; };
 		092A38D425625E6C0065ABB8 /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A38D325625E6C0065ABB8 /* Computer.swift */; };
+		092A38D62562676C0065ABB8 /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092A38D52562676C0065ABB8 /* AI.swift */; };
 		09C31E472562147A00B86873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C31E462562147A00B86873 /* AppDelegate.swift */; };
 		09C31E492562147A00B86873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C31E482562147A00B86873 /* ViewController.swift */; };
 		09C31E4C2562147A00B86873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C31E4A2562147A00B86873 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		092A38D125624A4F0065ABB8 /* Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 		092A38D325625E6C0065ABB8 /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		092A38D52562676C0065ABB8 /* AI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
 		09C31E432562147A00B86873 /* NumberGuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberGuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C31E462562147A00B86873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09C31E482562147A00B86873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				09C31E482562147A00B86873 /* ViewController.swift */,
 				092A38D125624A4F0065ABB8 /* Basic.swift */,
 				092A38D325625E6C0065ABB8 /* Computer.swift */,
+				092A38D52562676C0065ABB8 /* AI.swift */,
 				09C31E4A2562147A00B86873 /* Main.storyboard */,
 				09C31E4D2562147B00B86873 /* Assets.xcassets */,
 				09C31E4F2562147B00B86873 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				092A38D425625E6C0065ABB8 /* Computer.swift in Sources */,
 				09C31E492562147A00B86873 /* ViewController.swift in Sources */,
 				09C31E472562147A00B86873 /* AppDelegate.swift in Sources */,
+				092A38D62562676C0065ABB8 /* AI.swift in Sources */,
 				092A38D225624A4F0065ABB8 /* Basic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

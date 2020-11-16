@@ -23,6 +23,7 @@ class Computer: Basic {
                 numbers.remove(at: index)
             }
         }
+        print("=== Answer:\(answerNumberSting)")
     }
     
     func userGuess(input:String) -> (A:Int,B:Int)?{
@@ -34,11 +35,9 @@ class Computer: Basic {
         return result
     }
     
-    
-    
     override init() {
         super.init()
         generateAnswerNumberSting()
     }
-    
 }
+
