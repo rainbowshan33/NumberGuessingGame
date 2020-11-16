@@ -70,20 +70,18 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UU9-Dt-O4V">
-                                <rect key="frame" x="20" y="148" width="335" height="610"/>
+                                <rect key="frame" x="20" y="148" width="335" height="320"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xDa-Ec-7ed">
-                                        <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="610"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="hi" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDa-Ec-7ed">
+                                        <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="320"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CTL-hk-5G5">
-                                        <rect key="frame" x="172.66666666666663" y="0.0" width="162.33333333333337" height="610"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="hihi" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTL-hk-5G5">
+                                        <rect key="frame" x="172.66666666666663" y="0.0" width="162.33333333333337" height="320"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -96,7 +94,7 @@
                             <constraint firstItem="ELK-oX-M7g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5Ig-k5-rNI"/>
                             <constraint firstItem="ELK-oX-M7g" firstAttribute="leading" secondItem="iwV-a2-0Le" secondAttribute="trailing" constant="10" id="Kxj-nD-Sti"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UU9-Dt-O4V" secondAttribute="trailing" constant="20" id="NRJ-PU-3hZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UU9-Dt-O4V" secondAttribute="bottom" constant="20" id="OPY-Vq-4hG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UU9-Dt-O4V" secondAttribute="bottom" constant="310" id="OPY-Vq-4hG"/>
                             <constraint firstItem="h9E-Je-OE2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="PPt-hK-Gm5"/>
                             <constraint firstItem="PEY-HX-hhG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="UnP-35-Xug"/>
                             <constraint firstItem="PEY-HX-hhG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ayN-Az-cMS"/>
